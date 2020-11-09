@@ -39,7 +39,7 @@ class CalcController {
     };
 
     isOperator(value){
-        return (['+', '-', '*', '/', '%'] .indexOf(value) > -1);
+        return (['+', '-', '*', '/', '%'].indexOf(value) > -1);
     };
 
     setLastOperation(value){
